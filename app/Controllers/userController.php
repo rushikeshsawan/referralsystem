@@ -224,7 +224,7 @@ class userController extends BaseController
     function generateTree($parentId)
     {
 
-        $result = $this->db->query("SELECT id, f_name, l_name, email FROM userlogin WHERE referedby = $parentId")->getResultArray();
+        $result = $this->db->query("SELECT id, f_name, l_name,referralid, email FROM userlogin WHERE referedby = $parentId")->getResultArray();
 
         // If there are no children, return an empty string
         if (count($result) == 0) {
@@ -288,3 +288,18 @@ class userController extends BaseController
         echo "Result here->". $result . "<br>";
     }
 }
+
+
+
+// get all elements level in which level they are 
+// WITH RECURSIVE referrals AS (
+//     SELECT id, referedby, 1 as level 
+//     FROM userlogin 
+//     WHERE id = 1
+//     UNION ALL 
+//     SELECT u.id, u.referedby, r.level + 1 as level 
+//     FROM userlogin u 
+//     INNER JOIN referrals r ON u.referedby = r.id 
+//   ) 
+//   SELECT level,id
+//   FROM referrals WHERE id <> 1;
