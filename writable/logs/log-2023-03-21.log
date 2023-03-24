@@ -1,0 +1,551 @@
+CRITICAL - 2023-03-21 07:27:48 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\userController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 07:28:03 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\userController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 07:28:44 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\userController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 07:28:56 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\userController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 07:28:59 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\userController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 07:29:52 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\userController.php(10): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-21 09:02:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('sam@mail.com', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'sam@mail.com', Array, Array)
+#7 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#11 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('sam@mail.com', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'sam@mail.com', Array, Array)
+#6 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-21 09:02:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `userlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('sam@mail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'sam@mail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\userController.php(33): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-21 09:05:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail...', Array, Array)
+#7 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#11 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail...', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail...', Array, Array)
+#6 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-21 09:05:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `userlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\userController.php(33): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-21 09:07:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail...', Array, Array)
+#7 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#11 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail...', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail...', Array, Array)
+#6 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-21 09:07:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `userlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\userController.php(33): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-21 09:07:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail...', Array, Array)
+#7 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#11 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\referralsystem\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail...', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\referralsystem\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail...', Array, Array)
+#6 C:\xampp\htdocs\referralsystem\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(33): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->register()
+#9 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#10 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-21 09:07:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `userlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('rushikesh@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rushikesh@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\userController.php(33): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 09:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 09:20:23 --> Call to undefined method App\Models\userloginModel::count
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\userController.php(45): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 09:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 09:23:23 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-03-21 09:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 09:31:32 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\index.php on line 22.
+ 1 APPPATH\Views\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\userController.php(16): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 09:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 09:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 10:10:32 --> Unsupported operand types: string + array
+in APPPATH\Controllers\userController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 10:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 10:10:41 --> Array to string conversion
+in APPPATH\Controllers\userController.php on line 73.
+ 1 APPPATH\Controllers\userController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\userController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 10:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 10:11:01 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\userController.php on line 73.
+ 1 APPPATH\Controllers\userController.php(73): count('Total Referral for DARW7891 ')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 10:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 10:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 11:08:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE t.root_id = 1' at line 8 in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(94): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->hello()
+#5 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-21 11:08:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE t.root_id = 1' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Controllers\userController.php(94): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) as total_indirect_referrals 
+             FROM (
+               SELECT t1.id as root_id, t2.id as referral_id, t2.referred_by
+               FROM users t1
+               JOIN users t2 ON t1.id = t2.referred_by
+               
+             ) 
+             WHERE t.root_id = 1;')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->hello()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 11:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 11:12:29 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266338312 bytes)
+in APPPATH\Controllers\userController.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-03-21 11:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 11:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 12:23:58 --> mysqli_sql_exception: Unknown column 'parent_id' in 'field list' in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(295): mysqli->query('WITH RECURSIVE ...', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('WITH RECURSIVE ...')
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('WITH RECURSIVE ...')
+#3 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE ...')
+#4 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+#5 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-21 12:23:58 --> Unknown column 'parent_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE referrals AS (
+        SELECT id, parent_id FROM users WHERE id = 2
+        UNION ALL
+        SELECT u.id, u.parent_id FROM users u INNER JOIN referrals r ON u.parent_id = r.id
+      )
+      SELECT COUNT(*)-1 AS indirect_referral_count FROM referrals;')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 12:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 12:25:57 --> mysqli_sql_exception: Table 'referral.referrals' doesn't exist in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(295): mysqli->query('WITH RECURSIVE ...', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('WITH RECURSIVE ...')
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('WITH RECURSIVE ...')
+#3 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE ...')
+#4 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+#5 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-21 12:25:57 --> Table 'referral.referrals' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE userlogin AS (
+        SELECT id, referedby FROM users WHERE id = 1
+        UNION ALL
+        SELECT u.id, u.referedby FROM users u INNER JOIN referrals r ON u.referedby = r.id
+      )
+      SELECT COUNT(*)-1 AS indirect_referral_count FROM userlogin;')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 12:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 12:26:10 --> mysqli_sql_exception: Unknown column 'referedby' in 'field list' in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(295): mysqli->query('WITH RECURSIVE ...', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('WITH RECURSIVE ...')
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('WITH RECURSIVE ...')
+#3 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE ...')
+#4 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+#5 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-21 12:26:10 --> Unknown column 'referedby' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE userlogin AS (
+        SELECT id, referedby FROM users WHERE id = 1
+        UNION ALL
+        SELECT u.id, u.referedby FROM users u INNER JOIN userlogin r ON u.referedby = r.id
+      )
+      SELECT COUNT(*)-1 AS indirect_referral_count FROM userlogin;')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 12:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 12:32:29 --> mysqli_sql_exception: No anchors for recursive WITH element 'userlogin' in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(295): mysqli->query('WITH RECURSIVE ...', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('WITH RECURSIVE ...')
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('WITH RECURSIVE ...')
+#3 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE ...')
+#4 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+#5 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-21 12:32:29 --> No anchors for recursive WITH element 'userlogin'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE userlogin AS ( SELECT id, referedby FROM userlogin WHERE id = 3 UNION ALL SELECT u.id, u.referedby FROM userlogin u INNER JOIN userlogin r ON u.referedby = r.id ) SELECT COUNT(*)-1 AS indirect_referral_count FROM userlogin;')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 12:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-21 12:36:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS indirect_referral_count FROM referrals' at line 1 in C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\referralsystem\system\Database\MySQLi\Connection.php(295): mysqli->query('WITH RECURSIVE ...', 0)
+#1 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('WITH RECURSIVE ...')
+#2 C:\xampp\htdocs\referralsystem\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('WITH RECURSIVE ...')
+#3 C:\xampp\htdocs\referralsystem\app\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE ...')
+#4 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+#5 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+#6 C:\xampp\htdocs\referralsystem\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\referralsystem\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\referralsystem\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-21 12:36:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS indirect_referral_count FROM referrals' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Controllers\userController.php(72): CodeIgniter\Database\BaseConnection->query('WITH RECURSIVE referrals AS ( SELECT id, referedby FROM userlogin WHERE id = 2 UNION ALL SELECT u.id, u.referedby FROM userlogin u INNER JOIN userlogin r ON u.referedby = r.id ) SELECT * AS indirect_referral_count FROM referrals;')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 12:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-21 12:42:22 --> Undefined array key "allreferral"
+in APPPATH\Controllers\userController.php on line 82.
+ 1 APPPATH\Controllers\userController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "allreferral"', 'APPPATH\\Controllers\\userController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userController->gettotalreferral()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-21 12:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-21 12:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
